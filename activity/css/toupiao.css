@@ -1,0 +1,148 @@
+.cash-box{
+	width: 100%;
+}
+.ticket-ul{
+	margin-top: .2rem;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap ;
+}
+.ticket-li{
+	width: 3.3rem;
+	position: relative;
+	display: block;
+}
+.ticket-img{
+	width: 100%;
+	height:4.5rem;
+}
+.ticket-name{
+	width: 100%;
+	height:.6rem;
+	line-height: .6rem;
+	text-align: center;
+	color: #fff;
+	font-size: .3rem;
+	position: absolute;
+	background-color:black;
+	opacity: .8;
+	top:3.9rem;
+	left: 0;
+}
+.ticket-btn{
+	width: 2rem;
+	height: .5rem;
+	font-size: .22rem;
+	line-height: .5rem;
+	background-color: #ff4442;
+	margin: .2rem auto;
+	text-align: center;
+	color: #fff;
+}
+.ticket-num{
+	width: 100%;
+	height: .5rem;
+	line-height: .5rem;
+	text-align: center;
+}
+.ticket-succ{
+	width: 100%;
+	margin-top: 1rem;
+	text-align: center;
+	font-size: .4rem;
+	color: #ff4242;
+	display: flex;
+}
+.ticket-succ p{
+	margin-left: .2rem;
+}
+.succ-img{
+	width: .44rem;
+	height: .44rem;
+	margin-left: 35%;
+}
+.ticket-text{
+	margin-top: 1rem;
+	font-size: .28rem;
+}
+.ticket-text p{
+	width: 4.5rem;
+	display: block;
+	margin: .1rem auto;
+}
+.ticket-code {
+	width: 4.4rem;
+	height:4.4rem;
+	margin: .5rem auto;
+}
+.ticket-code img {
+	width: 100%;
+}
+.ticket-num{
+	text-align: center;
+}
+.ticket-header{
+	padding-top: .6rem;
+	text-align: center;
+	line-height: .4rem;
+}
+.go-index{
+	display: block;
+	width: 5rem;
+	height: 1rem;
+	background: url(../img/go.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 50%;
+	bottom: 1.5rem;
+	margin-left: -2.5rem;
+}
+.go-ticket{
+	display: block;
+	width: 5rem;
+	position: absolute;
+	left: 50%;
+	bottom: .7rem;
+	margin-left: -2.5rem;
+	text-align: center;
+	text-decoration:underline;
+	color: #fcf09e;
+}
+.ticket-null{
+	box-sizing: border-box;
+	/*padding-top:.6rem;*/
+	width: 3.8rem;
+	height: .9rem;
+	font-size: .32rem;
+	line-height: .9rem;
+	text-align: center;
+	color: #f92231;
+	border-bottom: 1px dashed #f92231;
+	font-weight: 900;
+	position: absolute;
+	left: 50%;
+	top:.6rem;
+	margin-left: -1.9rem;
+}
+.null-code{
+	width: 3rem;
+	position: absolute;
+	left: 50%;
+	top:2rem;
+	margin-left: -1.5rem;
+	font-size: .28rem;
+	color: #805d37;
+	line-height: .36rem;
+	text-align: center;
+	font-weight: 900;
+}
+.null-code-img{
+	width: 100%;
+	margin-top: .5rem;
+}
+.ticket-activity{
+	font-size: .24rem;
+	margin: 1rem;
+	font-weight: 900;
+	line-height: .56rem;
+}
